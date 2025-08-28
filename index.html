@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>nostraproject</title>
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Gabarito:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Top Header -->
+    <section class="topheader">
+      <div class="contact-no">
+        <p>Call us Free 24/7:(+91)1234 567 899</p>
+      </div>
+
+      <div class="currency-dropdown">
+        <label for="currency">Select Currency: </label>
+        <select id="currency" class="currency-select">
+          <option value="USD">USD – US Dollar</option>
+          <option value="EUR">EUR – Euro</option>
+          <option value="GBP">GBP – British Pound</option>
+          <option value="INR">INR – Indian Rupee</option>
+          <option value="JPY">JPY – Japanese Yen</option>
+          <option value="AUD">AUD – Australian Dollar</option>
+          <option value="CAD">CAD – Canadian Dollar</option>
+          <option value="SGD">SGD – Singapore Dollar</option>
+          <option value="CHF">CHF – Swiss Franc</option>
+          <option value="CNY">CNY – Chinese Yuan</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- navigation bar -->
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1>Nostra</h1>
+      </div>
+
+      <div class="menubar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="">Today's Deal</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="search-part">
+        <input type="text" id="input-box" placeholder="Search here" >
+        <button id="search-btn"> <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+        <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="hero">
+      <div class="hero-text">
+        <p>Best Products</p>
+        <h2>New Sell Handmade <br />& Collection</h2>
+        <button><a href="#">Shop Now</a></button>
+      </div>
+
+      <div class="hero-image">
+        <img src="./image/art-artist-background-bowl.jpg" alt="images" />
+      </div>
+    </section>
+
+    <!-- shop by catregory -->
+
+    <section class="products-category">
+      <div class="prod-text">
+        <p>Shop by category</p>
+      </div>
+
+      <div class="prod-img">
+        <div class="image">
+          <img src="./image/art.jpg" alt="image" />
+          <p><a href="">Art Products</a></p>
+        </div>
+
+        <div class="image">
+          <img src="./image/knitting.jpg" alt="image" />
+          <p><a href="">Knitting Products</a></p>
+        </div>
+
+        <div class="image">
+          <img src="./image/ceramic.jpg" alt="image" />
+          <p><a href="">Ceramic Products</a></p>
+        </div>
+
+        <div class="image">
+          <img src="./image/sculptureart.jpg" alt="image" />
+          <p><a href="">Sculptures</a></p>
+        </div>
+
+        <div class="image">
+          <img src="./image/handmadepot.jpg" alt="image" />
+          <p><a href="">Handmade Pots</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discount section -->
+    <section class="discount-section">
+      <div class="product-grid">
+        <!-- Left large product -->
+        <div class="product-large">
+          <img src="./image/banner.jpg" alt="Knitted Cord Coasters" />
+          <div class="product-text">
+            <p>Flat Discount 30%</p>
+            <h2>
+              Knitted Cord <br />
+              Coasters
+            </h2>
+            <a href="#">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Right two small products -->
+        <div class="small-grid">
+          <div class="product-small">
+            <img src="./image/cloudcoasters.jpg" alt="Iconic Cloud Coasters" />
+            <div class="product-text">
+              <p>25% Discount</p>
+              <h2>
+                Iconic Cloud <br />
+                Coasters
+              </h2>
+              <a href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="product-small">
+            <img src="./image/nordic.jpg" alt="Special Matte Nordic" />
+            <div class="product-text">
+              <p>35% Discount</p>
+              <h2>
+                Special Matte <br />
+                Nordic
+              </h2>
+              <a href="#">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider  -->
+    <div class="slider">
+      <div class="slide-headings">
+        <h2>Things you might like</h2>
+      </div>
+      <!-- Radio buttons -->
+      <input type="radio" name="slider" id="slide1" checked />
+      <input type="radio" name="slider" id="slide2" />
+
+      <!-- Slides container -->
+      <div class="images-slides">
+        <!-- Slide 1 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/bookmark.jpg" alt="image" /></a>
+            <div class="title">Bookmark</div>
+            <div class="rating">⭐ 4.8 (329)</div>
+            <div class="price">from ₹500</div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/claster.jpg" alt="image" /></a>
+            <div class="title">Leafy Coasters</div>
+            <div class="rating">⭐ 4.9 (3,406)</div>
+            <div class="price">from ₹3,667 </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/tray.jpg" alt="image" /></a>
+            <div class="title">Cloud Coasters</div>
+            <div class="rating">⭐ 5.0 (324)</div>
+            <div class="price">from ₹9,398</div>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/penholder.jpg" alt="image" /></a>
+            <div class="title">Cute Little penholder</div>
+            <div class="rating">⭐ 4.9 (491)</div>
+            <div class="price">from ₹1999 </div>
+          </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/headset.jpg" alt="image" /></a>
+            <div class="title">Cat Airpods holder</div>
+            <div class="rating">⭐ 4.7 (1,234)</div>
+            <div class="price">from ₹500</div>
+          </div>
+        </div>
+        <!-- Slide 6 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/cloudcoasters.jpg" alt="image" /></a>
+            <div class="title">Cloud Coasters</div>
+            <div class="rating">⭐ 4.8 (890)</div>
+            <div class="price">from ₹500</div>
+          </div>
+        </div>
+        <!-- Slide 7 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/knit.jpg" alt="image" /></a>
+            <div class="title">Knit gift</div>
+            <div class="rating">⭐ 4.9 (2,345)</div>
+            <div class="price">from ₹200 </div>
+          </div>
+        </div>
+        <!-- Slide 8 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <a href="#"><img src="./image/beans.jpg" alt="image" /></a>
+            <div class="title">Ceramic Beans</div>
+            <div class="rating">⭐ 4.8 (1,789)</div>
+            <div class="price">from ₹1,999 </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="nav">
+        <label for="slide1">&#10094;</label>
+        <label for="slide2">&#10095;</label>
+      </div>
+    </div>
+
+<!-- footer -->
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, eum!</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>&copy; 2025 YourCompany. All rights reserved.</p>
+  </div>
+</footer>
+
+  </body>
+
+</html>
